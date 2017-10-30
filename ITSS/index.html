@@ -1,0 +1,42 @@
+﻿<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html ng-app="App">
+<head>
+<title>School Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Ultra Modern Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+        SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!--//skycons-icons--> 
+<!--Angular Js References-->
+    <script src="angularjs/config.js"></script>
+    <script src="js/angular.min.js"></script>
+     <script src="js/angular-route.js"></script>
+    <script src="angularjs/app.js"></script>
+    <script src="routes/routes.js"></script>
+<!--//Angular Js References-->
+<!--Controllers.js-->
+    <script src="controllers/accountController.js"></script>
+<!--//Controllers.js--> 
+ 
+    <!--Bootstrap-->
+    <link href="css/yeti.css" rel="stylesheet" />
+    <!--/bootstrap-->
+
+</head> 
+<body >
+	<div class="container-fluid">	
+        <!-- //header-ends -->
+        <div class="panel">
+            <div class="panel-body">
+                <ng-view></ng-view>   
+            </div>
+        </div> 
+    </div>
+  </body>
+</html>
